@@ -1,0 +1,44 @@
+ul {
+  width: 880px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+li {
+  background-color: orange;
+  display: block;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+/*.anulador {
+  clear: both;
+}*/
+
+a {
+  height: 200px;
+  display: block;
+}
+
+#a01 {
+  background-image: url(img/a01.png);
+  background-size: 100%;
+}
+
+#a02 {
+  background-image: url(img/a02.png);
+  background-size: 100%;
+}
+
+#a03 {
+  background-image: url(img/a03.png);
+  background-size: 100%;
+}
+
+#a04 {
+  background-image: url(img/a04.png);
+  background-size: 100%;
+}
