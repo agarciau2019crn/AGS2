@@ -1,0 +1,23 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: gold;
+  margin: 10px;
+  font-size: 96px;
+}
+
+.prova {
+  background-color: coral;
+  position: absolute;
+  right: 0px;
+  top: 40px;
+  left: 400px;
+}
+
+.prova2 {
+  background-color: darkkhaki;
+  position: absolute;
+  right: 0px;
+  top: 60px;
+  left: 420px;
+}
