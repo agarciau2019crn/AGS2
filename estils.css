@@ -13,6 +13,7 @@ li {
   height: 200px;
   float: left;
   background-size: 100%;
+  border-radius: 50%;
 }
 
 /*.anulador {
@@ -22,11 +23,13 @@ li {
 a {
   height: 200px;
   display: block;
-  font-size: 20px;
+  font-size: 25px;
   font-family: sans-serif;
-  padding-top: 100px;
-  color: blue;
+  padding-top: 80px;
   text-align: center;
+  text-shadow: 0 0 10px black;
+  color: white;
+  text-decoration: none;
 }
 
 #a01 {
