@@ -1,3 +1,7 @@
+body {
+  background-color: paleturquoise;
+}
+
 ul {
   width: 880px;
   overflow: hidden;
