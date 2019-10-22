@@ -49,3 +49,14 @@ p {
               inset 7px 7px 20px grey;
   position: relative;
 }
+
+.blanco {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 10px;
+  box-shadow: 2px 2px 5px grey,
+              inset 7px 7px 20px grey;
+  position: relative;
+}
