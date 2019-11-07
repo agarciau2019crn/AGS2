@@ -1,6 +1,12 @@
+/*
+0.5em=8px
+1em=16px (Titulars)
+1.5em=24px (Paràgrafs)
+2em=32px (Interliniat)
+*/
+
 p {
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 1em;
   text-align: justify;
 }
 
@@ -50,4 +56,5 @@ div {
 
 h2 {
   font-family: 'Abril Fatface', Helvetica, Arial, Sans-serif;
+  font-size: 1.5em;
 }
