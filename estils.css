@@ -2,6 +2,16 @@ body {
   background-color: paleturquoise;
 }
 
+h1 {
+  font-family: sans-serif, Arial;
+  text-align: center;
+}
+
+h2 {
+  font-family: sans-serif, Arial;
+  text-align: center;
+}
+
 ul {
   width: 880px;
   overflow: hidden;
@@ -10,7 +20,19 @@ ul {
 }
 
 li {
-  background-color: orange;
+  background-color: MediumSpringGreen;
+  display: block;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  float: left;
+  background-size: 100%;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px black;
+}
+
+li:hover {
+  background-color: MediumTurquoise;
   display: block;
   margin: 10px;
   width: 200px;
@@ -32,8 +54,20 @@ a {
   font-family: sans-serif;
   padding-top: 80px;
   text-align: center;
-  text-shadow: 0 0 10px black;
+  text-shadow: 2px 0 10px black;
   color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  height: 200px;
+  display: block;
+  font-size: 25px;
+  font-family: sans-serif, Arial;
+  padding-top: 80px;
+  text-align: center;
+  text-shadow: 2px 0 10px #2F4F4F;
+  color: black;
   text-decoration: none;
 }
 
@@ -59,4 +93,39 @@ a {
 
 #a06 {
   background-image: url(img/a06.png);
+}
+
+#a01:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+#a02:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+#a03:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+#a04:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+#a05:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+#a06:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+#a07:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
