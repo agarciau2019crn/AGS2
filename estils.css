@@ -88,11 +88,19 @@ a:hover {
 }
 
 #a05 {
-  background-image: url(img/a05.png);
+  background-image: url(img/a5.png);
 }
 
 #a06 {
   background-image: url(img/a06.png);
+}
+
+#a07 {
+  background-image: url(img/a07.png);
+}
+
+#a08 {
+  background-image: url(img/a08.png);
 }
 
 #a01:hover {
