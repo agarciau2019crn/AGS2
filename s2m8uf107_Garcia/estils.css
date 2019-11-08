@@ -1,0 +1,39 @@
+/*Móvil Vertical*/
+
+@media screen and (max-width:640px) and (orientation:portrait) {
+  body {
+    background-color: skyblue;
+  }
+}
+
+/*Móvil Apaisado*/
+
+@media screen and (max-width:640px) and (orientation:landscape) {
+  body {
+    background-color: thistle;
+  }
+}
+
+/*Tablet Vertical*/
+
+@media screen and (min-width:640px) and (max-width:1200px) and (orientation:portrait) {
+  body {
+    background-color: darkolivegreen;
+  }
+}
+
+/*Tablet Apaisada*/
+
+@media screen and (min-width:640px) and (max-width:1200px) and (orientation:landscape) {
+  body {
+    background-color: peru;
+  }
+}
+
+/*Escritorio*/
+
+@media screen and (min-width:1200px) {
+  body {
+    background-color: salmon;
+  }
+}
