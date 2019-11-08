@@ -137,3 +137,8 @@ a:hover {
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
+
+#a08:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
