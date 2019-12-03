@@ -1,0 +1,190 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.barra {
+  height: 3.125rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+}
+
+.barra img {
+  margin-right: 1.25rem;
+  margin-left: 1.25rem;
+  margin-top: 0.3125rem;
+}
+
+.txtbarra {
+  color: #CCC;
+  margin: 0;
+  display: inline;
+  margin-left: 0.3125rem;
+}
+
+.txtbarra2 {
+  color: #CCC;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  margin-left: 0.3125rem;
+  float: right;
+  margin-top: 0.3125rem;
+}
+
+.txtbarra:hover {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+.txtbarra2:hover {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+.rrss {
+  float: right;
+  margin-left: 5px;
+}
+
+.contingut {
+  width: 70%;
+  margin-top: 3.5rem;
+}
+
+.docint {
+  float: left;
+  margin-left: 1.25rem;
+}
+
+.docint img {
+  border-radius: 0.625rem;
+}
+
+.docint:hover {
+  opacity: 0.5;
+}
+
+.contingutvist {
+  width: 70%;
+  float: left;
+}
+
+.docvistos {
+  float: left;
+  margin-left: 1.25rem;
+}
+
+.docvistos img {
+  border-radius: 0.625rem;
+  -webkit-filter:grayscale(100%);
+  -moz-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+
+.docvistos:hover {
+  opacity: 0.5;
+}
+
+.pelpend {
+  width: 70%;
+  float: left;
+}
+
+.pelpend2 {
+  float: left;
+  margin-left: 1.25rem;
+}
+
+.pelpimg {
+  width: 175px;
+  height: 260px;
+  background-color: red;
+  border-radius: 0.625rem;
+}
+
+.pelvist {
+  width: 70%;
+  float: left;
+}
+
+.pelvist2 {
+  float: left;
+  margin-left: 1.25rem;
+}
+
+.pelvimg {
+  width: 175px;
+  height: 260px;
+  background-color: #787878;
+  border-radius: 0.625rem;
+}
+
+.serieseg {
+  width: 70%;
+  float: left;
+}
+
+.serieseg2 {
+  float: left;
+  margin-left: 1.25rem;
+}
+
+.sersimg {
+  width: 175px;
+  height: 260px;
+  background-color: mediumseagreen;
+  border-radius: 0.625rem;
+}
+
+.seriesv {
+  width: 70%;
+  float: left;
+}
+
+.seriesv2 {
+  float: left;
+  margin-left: 1.25rem;
+}
+
+.servimg {
+  width: 175px;
+  height: 260px;
+  background-color: lightgray;
+  border-radius: 0.625rem;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  color: #FFF;
+  font-size: 1.375rem;
+  margin-left: 1.25rem;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  color: #CCC;
+  font-size: 0.85rem;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: Helvetica, sans-serif;
+  color: #CCC;
+  font-size: 0.6875rem;
+  display: inline-block;
+  margin-top: 0.125rem;
+  padding: 0;
+}
+
+a {
+  color: #CCC;
+  text-decoration: none;
+}
