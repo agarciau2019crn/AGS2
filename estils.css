@@ -103,6 +103,26 @@ a:hover {
   background-image: url(img/a08.png);
 }
 
+#a09 {
+  background-image: url(img/a09.png);
+}
+
+#a10 {
+  background-image: url(img/a10.png);
+}
+
+#a11 {
+  background-image: url(img/a11.png);
+}
+
+#a12 {
+  background-image: url(img/a12.png);
+}
+
+#a13 {
+  background-image: url(img/a13.png);
+}
+
 #a01:hover {
   opacity: 0.5;
   filter: alpha(opacity=50);
@@ -139,6 +159,31 @@ a:hover {
 }
 
 #a08:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+#a09:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+#a10:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+#a11:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+#a12:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+#a13:hover {
   opacity: 0.5;
   filter: alpha(opacity=50);
 }
