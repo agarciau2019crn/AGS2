@@ -57,7 +57,7 @@ body{
 .izquierdo{
 	transform: scale(1,1);
 	background-color: #EEE;
-	opacity: 40%;
+	opacity: 50%;
 }
 .derecho{
 	transform: scale(-1,1);
@@ -152,21 +152,18 @@ body{
 	display: none;
 }
 
-input [type=color] {
-	border-radius: 50%;
+input[type=color]{
+	border-radius: ;
 }
-
-input [type=color]:focus {
+input[type=color]:focus{
 	-webkit-appearance: none;
 	outline: none;
 }
-
-input [type=color]::webkit-color-swatch-wrapper {
+input[type=color]::-webkit-color-swatch-wrapper{
 	border-radius: 50%;
 	padding: 0;
 }
-
-input [type=color]::webkit-color-swatch {
+input[type=color]::-webkit-color-swatch{
 	border: none;
 	border-radius: 50%;
 }
