@@ -1,295 +1,33 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<meta name="Aleix García">
-		<title>Telegram</title>
-		<link rel="stylesheet" href="estils.css" />
-	</head>
-	<body>
-
-		<div id="contenedor">
-			<div id="chat">
-				<div class="bocadillo izquierdo principal" id="ChatIzquierdo"></div>
-				<div class="bocadillo derecho principal" id="ChatDerecho"></div>
-			</div>
-
-			<div id="tema">
-				<div class="tema" id="default">
-					<div class="bocadillo izquierdo"></div>
-					<div class="bocadillo derecho" id="DefaultDerecho"></div>
-					<div class="boton" id="a"></div>
-
-				</div>
-				<div class="tema" id="mono">
-					<div class="bocadillo izquierdo"></div>
-					<div class="bocadillo derecho" id="MonoDerecho"></div>
-					<div class="boton" id="b"></div>
-				</div>
-				<div class="tema" id="dark">
-					<div class="bocadillo izquierdo" id="DarkIzquierdo"></div>
-					<div class="bocadillo derecho" id="DarkDerecho"></div>
-					<div class="boton" id="c"></div>
-				</div>
-				<div class="tema" id="artic">
-					<div class="bocadillo izquierdo" id="ArticIzquierdo"></div>
-					<div class="bocadillo derecho" id="ArticDerecho"></div>
-					<div class="boton" id="d"></div>
-				</div>
-			</div>
-			
-			<div	class="slider">
-			<div class="anular" id="colores">
-				<div class="bola" id="b1"></div>
-				<div class="bola" id="b2"></div>
-				<div class="bola" id="b3"></div>
-				<div class="bola" id="b4"></div>
-				<input type="color" id="b25" class="bola" value="#fc0303">
-			</div>
-		</div>
-
-		<div	class="slider">
-			<div class="anular" id="colores1">
-				<div class="bola" id="b11"></div>
-				<div class="bola" id="b12"></div>
-				<div class="bola" id="b13"></div>
-				<div class="bola" id="b14"></div>
-				<input type="color" id="b26" class="bola" value="#fc0303">
-			</div></div>
-			
-			<div	class="slider">
-			<div class="anular" id="colores2">
-				<div class="bola" id="b21"></div>
-				<div class="bola" id="b22"></div>
-				<div class="bola" id="b23"></div>
-				<div class="bola" id="b24"></div>
-				<input type="color" id="b27" class="bola" value="#fc0303">
-			</div></div>
-
-		</div>
-
-
-
-		<script type="text/javascript" language="javascript">
-			document.getElementById('default').addEventListener('click',DEFAULT);
-			document.getElementById('mono').addEventListener('click',MONO);
-			document.getElementById('dark').addEventListener('click',DARK);
-			document.getElementById('artic').addEventListener('click',ARTIC);
-
-			var color=["#ff8000","#ffff00","#00ff40","#8000ff",];
-			var chat=["#ffcc99","#ffff99","#99ffb3","#cc99ff",];
-
-		  var bola=document.getElementsByClassName('bola');
-		  bola[0].style.backgroundColor=color[0];
-		  bola[1].style.backgroundColor=color[1];
-		  bola[2].style.backgroundColor=color[2];
-		  bola[3].style.backgroundColor=color[3];
-		  bola[4].style.backgroundColor=color[4];
-		  bola[5].style.backgroundColor=color[0];
-		  bola[6].style.backgroundColor=color[1];
-		  bola[7].style.backgroundColor=color[2];
-			bola[8].style.backgroundColor=color[3];
-		  bola[9].style.backgroundColor=color[4];
-		  bola[10].style.backgroundColor=color[0];
-		  bola[11].style.backgroundColor=color[1];
-		  bola[12].style.backgroundColor=color[2];
-		  bola[13].style.backgroundColor=color[3];
-		  bola[14].style.backgroundColor=color[4];
-			document.getElementById('a').addEventListener('click',DEFAULT);
-			document.getElementById('b').addEventListener('click',MONO);
-			document.getElementById('c').addEventListener('click',DARK);
-			document.getElementById('d').addEventListener('click',ARTIC);
-
-		var slider=document.getElementsByClassName('slider');
-
-
-
-
-			function DEFAULT(){
-				slider[0].style.display="none";
-				slider[1].style.display="none";
-				slider[2].style.display="none";
-				document.getElementById("chat").style.backgroundColor = ("#CCC");
-				document.getElementById("ChatIzquierdo").style.backgroundColor = ("#EEE");
-				document.getElementById("ChatDerecho").style.backgroundColor = ("#7bd287");
-				document.getElementById("colores").style.display="none";
-				document.getElementById("colores1").style.display="none";
-				document.getElementById("colores2").style.display="none";
-				document.getElementById("a").style.backgroundColor = ("red");
-				document.getElementById("b").style.backgroundColor = ("transparent");
-				document.getElementById("c").style.backgroundColor = ("transparent");
-				document.getElementById("d").style.backgroundColor = ("transparent");
-
-			}
-
-			function MONO(){
-				slider[0].style.display="block";
-				slider[1].style.display="none";
-				slider[2].style.display="none";
-				document.getElementById("chat").style.backgroundColor = ("#0066ff");
-				document.getElementById("ChatIzquierdo").style.backgroundColor = ("#EEE");
-				document.getElementById("ChatDerecho").style.backgroundColor = ("#cce0ff");
-				document.getElementById("colores").style.display="flex";
-				document.getElementById("colores1").style.display="none";
-				document.getElementById("colores2").style.display="none";
-				document.getElementById("a").style.backgroundColor = ("transparent");
-				document.getElementById("b").style.backgroundColor = ("red");
-				document.getElementById("c").style.backgroundColor = ("transparent");
-				document.getElementById("d").style.backgroundColor = ("transparent");
-			}
-
-			function DARK(){
-				slider[0].style.display="none";
-				slider[1].style.display="block";
-				slider[2].style.display="none";
-				document.getElementById("chat").style.backgroundColor = ("#38344C");
-				document.getElementById("ChatIzquierdo").style.backgroundColor = ("#cce0ff");
-				document.getElementById("ChatDerecho").style.backgroundColor = ("#0066ff");
-				document.getElementById("colores").style.display="none";
-				document.getElementById("colores1").style.display="flex";
-				document.getElementById("colores2").style.display="none";
-				document.getElementById("a").style.backgroundColor = ("transparent");
-				document.getElementById("b").style.backgroundColor = ("transparent");
-				document.getElementById("c").style.backgroundColor = ("red");
-				document.getElementById("d").style.backgroundColor = ("transparent");
-			}
-
-			function ARTIC(){
-				slider[0].style.display="none";
-				slider[1].style.display="none";
-				slider[2].style.display="block";
-				document.getElementById("chat").style.backgroundColor = ("#EEEDEF");
-				document.getElementById("ChatDerecho").style.backgroundColor = ("#0066ff");
-				document.getElementById("ChatIzquierdo").style.backgroundColor = ("#cce0ff");
-				document.getElementById("colores").style.display="none";
-				document.getElementById("colores1").style.display="none";
-				document.getElementById("colores2").style.display="flex";
-				document.getElementById("a").style.backgroundColor = ("transparent");
-				document.getElementById("b").style.backgroundColor = ("transparent");
-				document.getElementById("c").style.backgroundColor = ("transparent");
-				document.getElementById("d").style.backgroundColor = ("red");
-			}
-
-			document.getElementById('b1').addEventListener('click',COLOR1);
-			function COLOR1(){
-				document.getElementById("chat").style.backgroundColor = (color[0]);
-				document.getElementById("mono").style.backgroundColor = (color[0]);
-				document.getElementById("MonoDerecho").style.backgroundColor = (chat[0]);
-				document.getElementById("ChatDerecho").style.backgroundColor = (chat[0]);
-			}
-
-			document.getElementById('b2').addEventListener('click',COLOR2);
-			function COLOR2(){
-				document.getElementById("chat").style.backgroundColor = (color[1]);
-				document.getElementById("mono").style.backgroundColor = (color[1]);
-				document.getElementById("MonoDerecho").style.backgroundColor = (chat[1]);
-				document.getElementById("ChatDerecho").style.backgroundColor = (chat[1]);
-			}
-
-			document.getElementById('b3').addEventListener('click',COLOR3);
-			function COLOR3(){
-				document.getElementById("chat").style.backgroundColor = (color[2]);
-				document.getElementById("mono").style.backgroundColor = (color[2]);
-				document.getElementById("MonoDerecho").style.backgroundColor = (chat[2]);
-				document.getElementById("ChatDerecho").style.backgroundColor = (chat[2]);
-			}
-
-			document.getElementById('b4').addEventListener('click',COLOR4);
-			function COLOR4(){
-				document.getElementById("chat").style.backgroundColor = (color[3]);
-				document.getElementById("mono").style.backgroundColor = (color[3]);
-				document.getElementById("MonoDerecho").style.backgroundColor = (chat[3]);
-				document.getElementById("ChatDerecho").style.backgroundColor = (chat[3]);
-			}
-
-			document.getElementById('b11').addEventListener('click',COLOR11);
-			function COLOR11(){
-				document.getElementById("ChatIzquierdo").style.backgroundColor = (chat[0]);
-				document.getElementById("ChatDerecho").style.backgroundColor = (color[0]);
-				document.getElementById("DarkIzquierdo").style.backgroundColor = (chat[0]);
-				document.getElementById("DarkDerecho").style.backgroundColor = (color[0]);
-			}
-
-			document.getElementById('b12').addEventListener('click',COLOR12);
-			function COLOR12(){
-				document.getElementById("ChatIzquierdo").style.backgroundColor = (chat[1]);
-				document.getElementById("ChatDerecho").style.backgroundColor = (color[1]);
-				document.getElementById("DarkIzquierdo").style.backgroundColor = (chat[1]);
-				document.getElementById("DarkDerecho").style.backgroundColor = (color[1]);
-			}
-
-			document.getElementById('b13').addEventListener('click',COLOR13);
-			function COLOR13(){
-				document.getElementById("ChatIzquierdo").style.backgroundColor = (chat[2]);
-				document.getElementById("ChatDerecho").style.backgroundColor = (color[2]);
-				document.getElementById("DarkIzquierdo").style.backgroundColor = (chat[2]);
-				document.getElementById("DarkDerecho").style.backgroundColor = (color[2]);
-			}
-
-			document.getElementById('b14').addEventListener('click',COLOR14);
-			function COLOR14(){
-				document.getElementById("ChatIzquierdo").style.backgroundColor = (chat[3]);
-				document.getElementById("ChatDerecho").style.backgroundColor = (color[3]);
-				document.getElementById("DarkIzquierdo").style.backgroundColor = (chat[3]);
-				document.getElementById("DarkDerecho").style.backgroundColor = (color[3]);
-			}
-
-			document.getElementById('b21').addEventListener('click',COLOR21);
-			function COLOR21(){
-				document.getElementById("ChatIzquierdo").style.backgroundColor = (chat[0]);
-				document.getElementById("ChatDerecho").style.backgroundColor = (color[0]);
-				document.getElementById("ArticIzquierdo").style.backgroundColor = (chat[0]);
-				document.getElementById("ArticDerecho").style.backgroundColor = (color[0]);
-			}
-
-			document.getElementById('b22').addEventListener('click',COLOR22);
-			function COLOR22(){
-				document.getElementById("ChatIzquierdo").style.backgroundColor = (chat[1]);
-				document.getElementById("ChatDerecho").style.backgroundColor = (color[1]);
-				document.getElementById("ArticIzquierdo").style.backgroundColor = (chat[1]);
-				document.getElementById("ArticDerecho").style.backgroundColor = (color[1]);
-			}
-
-			document.getElementById('b23').addEventListener('click',COLOR23);
-			function COLOR23(){
-				document.getElementById("ChatIzquierdo").style.backgroundColor = (chat[2]);
-				document.getElementById("ChatDerecho").style.backgroundColor = (color[2]);
-				document.getElementById("ArticIzquierdo").style.backgroundColor = (chat[2]);
-				document.getElementById("ArticDerecho").style.backgroundColor = (color[2]);
-			}
-
-			document.getElementById('b24').addEventListener('click',COLOR24);
-			function COLOR24(){
-				document.getElementById("ChatIzquierdo").style.backgroundColor = (chat[3]);
-				document.getElementById("ChatDerecho").style.backgroundColor = (color[3]);
-				document.getElementById("ArticIzquierdo").style.backgroundColor = (chat[3]);
-				document.getElementById("ArticDerecho").style.backgroundColor = (color[3]);
-			}
-			
-			document.getElementById('b25').addEventListener('input',COLOR25);
-			function COLOR25(){
-			document.getElementById("chat").style.backgroundColor=b25.value;
-			document.getElementById("mono").style.backgroundColor=b25.value;
-			}
-
-			document.getElementById('b26').addEventListener('input',COLOR26);
-			function COLOR26(){
-			document.getElementById("ChatIzquierdo").style.backgroundColor=b26.value;
-			document.getElementById("ChatDerecho").style.backgroundColor=b26.value;
-			document.getElementById("DarkIzquierdo").style.backgroundColor=b26.value;
-			document.getElementById("DarkDerecho").style.backgroundColor=b26.value;
-			}
-
-			document.getElementById('b27').addEventListener('input',COLOR27);
-			function COLOR27(){
-			document.getElementById("ChatIzquierdo").style.backgroundColor=b27.value;
-			document.getElementById("ChatDerecho").style.backgroundColor=b27.value;
-			document.getElementById("ArticIzquierdo").style.backgroundColor=b27.value;
-			document.getElementById("ArticDerecho").style.backgroundColor=b27.value;
-			}
-		</script>
-
-	</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-devide-width, user-scalable=no, initial-scale=1">
+    <title>Taula de Continguts</title>
+    <meta author="Aleix García">
+    <link rel="stylesheet" href="estils.css">
+  </head>
+  <body>
+<h1>TAULA DE CONTINGUTS</h1>
+<h2>Aleix García - AGS2</h2>
+    <ul>
+      <li id="a01"><a href="s2m8uf100_Garcia/horari.html">Horari</a></li>
+      <li id="a02"><a href="s2m8uf101_Garcia/index.html">Feedly</a></li>
+      <li id="a03"><a href="s2m8uf102_Garcia/index.html">DVD</a></li>
+      <li id="a04"><a href="s2m8uf104_Garcia/s2m8uf104_Garcia.html">Google</a></li>
+      <li id="a05" class="anulador"><a href="s2m8uf103_Garcia/index.html">Float</a></li>
+      <li id="a06"><a href="s2m8uf105_Garcia/index.html">Escacs</a></li>
+      <li id="a07"><a href="s2m8uf106_Garcia/index.html">Posicionament</a></li>
+      <li id="a08"><a href="s2m8uf107_Garcia/index.html">Responsive</a></li>
+      <li id="a09"><a href="s2m8uf108_Garcia/index.html">Bar Reynolds</a></li>
+      <li id="a10"><a href="s2m8uf109_Garcia/index.html">Posicionament</a></li>
+      <li id="a11"><a href="s2m8uf110_Garcia/index.html">Flor</a></li>
+      <li id="a12"><a href="s2m8uf111_Garcia/s2m8uf111_Garcia.html">Retrat</a></li>
+      <li id="a13"><a href="s2m8uf201_Garcia/index.html">Photoshop</a></li>
+      <li id="a14"><a href="s2m8uf202_Garcia/index.html">Botiga</a></li>
+      <li id="a15"><a href="s1m7uf2309_Garcia/index.html">Telegram</a></li>
+      <li id="e01"><a href="s2m8uf1e1_Garcia/index.html">Examen 1</a></li>
+      <li id="e02"><a href="s2m8uf2e2_Garcia/index.html">Examen 2</a></li>
+    </ul>
+  </body>
 </html>
