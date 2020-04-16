@@ -1,0 +1,216 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  overflow: visible;
+  position: relative;
+}
+
+.gafas {
+  height: 130px;
+  width: 170px;
+  border-radius: 50%;
+  background-color: white;
+  filter: opacity(0.5);
+  border: solid 5px #efb810;
+  z-index: 1;
+}
+
+#izq {
+  bottom: 220px;
+  margin-right: 55px;
+  margin-left: 30px;
+}
+
+#der {
+  bottom: 350px;
+  margin-right: 30px;
+  margin-left: 300px;
+}
+
+.linea {
+  height: 5px;
+  width: 95px;
+  background: #efb810;
+  margin-left: 207px;
+  bottom: 425px;
+  filter: opacity(0.5);
+}
+
+.esquerra {
+  float: left;
+  clear: left;
+}
+
+.dreta {
+  float: right;
+  clear: right;
+}
+
+.cap {
+  width: 500px;
+  height: 800px;
+  background-color: #F3E4D5;
+  margin: 0 auto;
+  border-radius: 100px 100px 150px 150px;
+}
+
+.pel {
+  height: 200px;
+  background-color: #1F1A19;
+  border-radius: 100px 100px 0 0;
+}
+
+.flequillo {
+  width: 250px;
+  height: 50px;
+  bottom: 35px;
+  -moz-border-radius: 0 50% / 0 100%;
+  -webkit-border-radius: 0 50% / 0 100%;
+  border-radius: 0 50% / 0 100%;
+  background: #1F1A19;
+}
+
+.ulls {
+  height: 320px;
+  background-color:;
+  clear: both;
+}
+
+.celles {
+  height: 40px;
+  clear: both;
+  margin: 0;
+}
+
+.cella {
+  margin: 20px;
+  width: 200px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #1F1A19;
+}
+
+.transparente {
+  width: 230px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #F3E4D5;
+  bottom: 60px;
+  margin: 10px;
+  transform: rotate();
+}
+
+.parpelles {
+  height: 80px;
+  background-color:;
+  margin:0;
+}
+
+.parpella {
+  height: 60px;
+}
+
+.pestanyes {
+  height: 100px;
+  background-color:;
+  margin: 0 75px;
+}
+
+.pestanya {
+  height: 60px;
+}
+
+.irisos {
+  height: 50px;
+  background-color:;
+}
+
+.iris {
+height: 40px;
+width: 40px;
+background-color: maroon;
+border-radius: 50%;
+margin-right: 90px;
+margin-left: 90px;
+bottom: 460px;
+}
+
+.pupiles {
+  height: 50px;
+  background-color:;
+}
+
+.pupila {
+  height: 20px;
+}
+
+.orelles {
+  height: 100px;
+  background-color:;
+}
+
+.orella {
+  height: 200px;
+  width: 100px;
+  background-color: #F3E4D5;
+  bottom: 500px;
+  margin: -60px;
+}
+.orella.esquerra {
+  border-radius: 50px 0 0 100px;
+}
+.orella.dreta {
+border-radius: 0 50px 100px 0;
+}
+
+.nas {
+  height: 150px;
+  width: 100px;
+  background-color: #d6bea7;
+  bottom: 240px;
+  left: 200px;
+  border-radius: 50% 50% 50% 50% / 100% 100% 80% 50%;
+}
+
+.ulls {
+  height: 320px;
+  background-color:;
+  clear: both;
+}
+
+.blancos {
+  height: 50px;
+  background-color: ;
+}
+
+.blanco {
+  height: 70px;
+  width: 110px;
+  border-radius: 50%;
+  background-color: white;
+  bottom: 180px;
+  margin-right: 55px;
+  margin-left: 55px;
+}
+
+.boca {
+  height: 100px;
+  width: 200px;
+  background-color: black;
+  margin: auto;
+  border-radius: 0 0 100% 100%;
+  bottom: 170px;
+}
+
+.transparente {
+  width: 200px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #F3E4D5;
+  bottom: 105px;
+  margin: 10px;
+  transform: rotate();
+}
