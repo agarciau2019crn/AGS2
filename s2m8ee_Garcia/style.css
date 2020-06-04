@@ -1,0 +1,165 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+.barra {
+    height: 3rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+}
+  
+.barra img {
+    margin-right: 1.25rem;
+    margin-left: 1.25rem;
+    margin-top: 0.3125rem;
+}
+
+.txtbarra {
+    color: #CCC;
+    margin: 0;
+    display: inline;
+    margin-left: 0.3125rem;
+}
+
+.txtbarra2 {
+    color: #CCC;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    margin-right: 0.5rem;
+    float: right;
+    margin-top: 1.2rem;
+}
+  
+.txtbarra:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+  
+.txtbarra2:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+a {
+    color: #CCC;
+    text-decoration: none;
+}
+
+.fitxaesq {
+    float: left;
+    width: 15%;
+}
+
+.fitxaesq img {
+    height: 12rem;
+    margin-top: 4rem;
+    margin-left: 1.25rem;
+    border-radius: 0.625rem;
+}
+
+#txtesq {
+    margin-left: 2rem;
+}
+
+#titesq {
+    margin-left: 1.25rem;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    color: #FFF;
+    font-size: 1.375rem;
+    font-weight: normal;
+  }
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.fitxadreta {
+    width: 85%;
+    float: right;
+    margin-top: 4rem;
+    padding: 0;
+}
+
+h3 {
+    font-family: Helvetica, sans-serif;
+    color: #FFF;
+    font-weight: normal;
+    font-size: 0.9rem;
+}
+
+.titolpetit {
+    margin-left: 1rem;
+}
+
+.fitxaint {
+    width: 60%;
+    float: left;
+}
+
+.com {
+    float: right;
+    width: 35%;
+}
+
+#cuadradoverde {
+    background-color: green;
+    float: right;
+    width: 50px;
+    height: 20px;
+    border-radius: 0.3rem;
+    text-align: center;
+}
+
+#cuadradorojo {
+    background-color: red;
+    float: right;
+    width: 50px;
+    height: 20px;
+    border-radius: 0.3rem;
+    text-align: center;
+}
+
+#cuadradonar {
+    background-color: orange;
+    float: right;
+    width: 50px;
+    height: 20px;
+    border-radius: 0.3rem;
+    text-align: center;
+}
+
+#titidioma {
+    width: 70%;
+    float: left;
+}
+
+#online {
+    float: left;
+}
+
+h4 {
+    color: #FFF;
+}
+
+#cuadrado {
+    float: right;
+    width: 50%;
+}
+
+#online {
+    width: 50%;
+}
